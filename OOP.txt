@@ -1,0 +1,18 @@
+class Bio:
+    
+    def __init__(self, name, age, occupation, height, weight):
+        self.name = name
+        self.age = age
+        self.occupation = occupation
+        self.height = height
+        self.weight = weight
+
+    def print_info(self):
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
+        print(f"Occupation: {self.occupation}")
+        print(f"height: {self.height}")
+        print(f"weight: {self.weight}")
+
+person = Bio("Fidel", 20, "Student", "height", "weight")
+person.print_info()
